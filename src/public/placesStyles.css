@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    background-color: grey;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+section{
+    background-color: rgb(189, 190, 190);
+    max-width: 800px;
+    position:relative;
+    left: 28%;
+}
+
+#first{
+    max-width: 1000px;
+    font-weight: bold;
+}
+img{
+    max-width: 800px;
+    text-align: justify;
+}
+body{
+    height: 100vh;
+    overflow: scroll;
+}

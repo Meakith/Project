@@ -1,12 +1,16 @@
 body{
     font: 14px Georgia, serif;
-    background-color: #666;
+    background-color: #fff;
     
  }
  
 #page-wrap { width: 500px; margin: 0 auto;}
  
-h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
+h1 { 
+   margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px;
+   position: relative;
+   left: 30%;
+ }
  
 #quiz input {
     vertical-align: middle;
@@ -16,12 +20,9 @@ h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; lett
    margin: 0 0 10px 20px;
 }
  
-#quiz ol li {
-   margin: 0 0 20px 0;
-}
- 
 #quiz ol li div {
    padding: 4px 0;
+   margin: 0 0 20px 0;
 }
  
 #quiz h3 {
@@ -30,4 +31,15 @@ h1  { margin: 25px 0; font: 18px Georgia, Serif; text-transform: uppercase; lett
  
 #results {
     font: 44px Georgia, Serif;
+}
+
+#page-wrap{
+   background-color: bisque;
+}
+.submitbtn{
+   position: relative;
+   left: 40%;
+}
+div{
+   margin: 20px;
 }

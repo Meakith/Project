@@ -14,7 +14,7 @@
         <p class="link"><a href="registration.php">New Registration</a></p>
   </form>
 <?php
-    require('db.php');
+    require_once 'db.php';
     session_start();
     if (isset($_POST['username'])) {
         $username = stripslashes($_REQUEST['username']);

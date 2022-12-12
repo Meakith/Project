@@ -15,7 +15,6 @@
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
         <a href="gallery.php" class="mr-5 hover:text-gray-900">Gallery</a>
-        <a href="places.php" class="mr-5 hover:text-gray-900">Places</a>
         <a href="quiz.php" class="mr-5 hover:text-gray-900">QUIZ!</a>
         <a href="registration.php" class="mr-5 hover:text-gray-900" style="font-weight:bold;">Register/Login</a>
         <a href="logout.php" class="mr-5 hover:text-gray-900" style="font-weight:bold;">Logout</a>

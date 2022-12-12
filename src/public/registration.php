@@ -12,10 +12,11 @@
         <input type="text" class="login-input" name="email" placeholder="Email Adress">
         <input type="password" class="login-input" name="password" placeholder="Password">
         <input type="submit" name="submit" value="Register" class="login-button">
-        <p class="link"><a href="login.php">Click to Login</a></p>
+        <p class="link"><a href="login.php">Already an user ? Click to Login</a></p>
     </form>
 <?php
-    require('db.php');
+    require_once 'db.php';
+
     if (isset($_REQUEST['username'])) {
         $username = stripslashes($_REQUEST['username']);
         $username = mysqli_real_escape_string($con, $username);
@@ -38,7 +39,7 @@
                   <p class='link'>Click here to <a href='registration.php'>registration</a> again.</p>
                   </div>";
         }
-    } else {}
+    };
 ?>
 </body>
 </html>
