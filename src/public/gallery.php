@@ -12,27 +12,27 @@ include_once 'index.php';
           <a href="places/zalgiris.html"><img alt="gallery" class="w-full object-cover h-full object-center block" src="https://www.vle.lt/tmp/vle-images/110580_3.jpg"></a>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-        <a href="places/coleseum.html"><img alt="gallery" class="w-full object-cover h-full object-center block" src="https://img.freepik.com/premium-photo/view-colosseo-romano-roman-coliseum-roma-lazio-italy_137125-2984.jpg?w=2000"></a>
+          <a href="places/coleseum.html"><img alt="gallery" class="w-full object-cover h-full object-center block" src="https://img.freepik.com/premium-photo/view-colosseo-romano-roman-coliseum-roma-lazio-italy_137125-2984.jpg?w=2000"></a>
         </div>
         <div class="md:p-2 p-1 w-full">
-        <a href="places/stonehenge.html"><img alt="gallery" class="w-full h-full object-cover object-center block" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Stonehenge2007_07_30.jpg"></a>
+          <a href="places/stonehenge.html"><img alt="gallery" class="w-full h-full object-cover object-center block" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Stonehenge2007_07_30.jpg"></a>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="md:p-2 p-1 w-full">
-        <a href="places/acropolis.html"><img alt="gallery" class="w-full h-full object-cover object-center block" src="https://s27363.pcdn.co/wp-content/uploads/2020/05/Acropolis-1200x900.jpg.optimal.jpg"></a>
+          <a href="places/acropolis.html"><img alt="gallery" class="w-full h-full object-cover object-center block" src="https://s27363.pcdn.co/wp-content/uploads/2020/05/Acropolis-1200x900.jpg.optimal.jpg"></a>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-        <a href="places/eiffel.html"><img alt="gallery" class="w-full object-cover h-full object-center block" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/03/25/12/eiffel.jpg?quality=75&width=982&height=726&auto=webp"></a>
+          <a href="places/eiffel.html"><img alt="gallery" class="w-full object-cover h-full object-center block" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/03/25/12/eiffel.jpg?quality=75&width=982&height=726&auto=webp"></a>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-        <a href="places/ww2.html"><img alt="gallery" class="w-full object-cover h-full object-center block" src="https://www.callofduty.com/content/dam/atvi/callofduty/wwii/home/sh-overview.jpg"></a>
+          <a href="places/ww2.html"><img alt="gallery" class="w-full object-cover h-full object-center block" src="https://www.callofduty.com/content/dam/atvi/callofduty/wwii/home/sh-overview.jpg"></a>
         </div>
         <div class="flex flex-wrap w-1/2">
-        <div class="md:p-2 p-1 w-1/2">
-        <a href="places/giza.html"><img alt="gallery" class="w-full object-cover h-full object-center block" src="https://cdn.mos.cms.futurecdn.net/YMa7Wx2FyjQFUjEeqa72Rm-1200-80.jpg"></a>
+          <div class="md:p-2 p-1 w-1/2">
+            <a href="places/giza.html"><img alt="gallery" class="w-full object-cover h-full object-center block" src="https://cdn.mos.cms.futurecdn.net/YMa7Wx2FyjQFUjEeqa72Rm-1200-80.jpg"></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </section>

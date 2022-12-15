@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>Registration</title>
-    <link rel="stylesheet" href="forms.css"/>
+    <link rel="stylesheet" href="css/forms.css" />
 </head>
+
 <body>
-<form class="form" action="" method="post">
+    <form class="form" action="" method="post">
         <h1 class="login-title">Registration</h1>
         <input type="text" class="login-input" name="username" placeholder="Username" required />
         <input type="text" class="login-input" name="email" placeholder="Email Adress">
@@ -14,8 +16,8 @@
         <input type="submit" name="submit" value="Register" class="login-button">
         <p class="link"><a href="login.php">Already an user ? Click to Login</a></p>
     </form>
-<?php
-    require_once 'db.php';
+    <?php
+    include 'db.php';
 
     if (isset($_REQUEST['username'])) {
         $username = stripslashes($_REQUEST['username']);
@@ -40,6 +42,7 @@
                   </div>";
         }
     };
-?>
+    ?>
 </body>
+
 </html>
